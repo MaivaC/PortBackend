@@ -1,0 +1,6 @@
+username:kamgamaiva
+password:qwertyuiop
+
+
+
+mongodb+srv://kamgamaiva:qwertyuiop@cluster0.53tj9zx.mongodb.net/?retryWrites=true&w=majority
