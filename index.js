@@ -24,7 +24,9 @@ app.use(express.json());
 
 //Define a route to fetch data line
 app.use("/api",require("./router/app.route"));
-
+app.get("/getData",(req,res)=>{
+    res.send("Hello");
+});
 //start the server
 app.listen(8000,()=>{
     console.log("Server started on port 8000");
